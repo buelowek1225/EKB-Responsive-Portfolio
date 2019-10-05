@@ -1,0 +1,208 @@
+/* Downloaded Fonts */
+/* font-family: 'Anton', sans-serif;
+font-family: 'Hind Siliguri', sans-serif;
+font-family: 'Exo', sans-serif;
+font-family: 'Cinzel', serif;
+font-family: 'Pathway Gothic One', sans-serif;
+font-family: 'K2D', sans-serif; */
+
+html { 
+  background: url("../images/Skola.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
+
+body {
+  margin: 0;
+}
+
+.page-container{
+  position: relative;
+  min-height: 100vh;
+}
+
+.content-wrap{
+  padding-bottom: 15px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: end;
+  padding-top: 10px;
+  padding-right: 10px;
+}
+
+li {
+  display: inline;
+}
+
+a:hover {
+  color: #434343;
+}
+
+a {
+  color: whitesmoke;
+  font-family: 'K2D', sans-serif;
+  text-decoration: none;
+  margin: 5px;
+}
+
+/* INDEX PAGE */
+
+.title-info {
+  margin: 60px;
+}
+
+h1 {
+  color: whitesmoke;
+  text-align: center;
+  text-shadow: 1px 1px #000000;
+  font-family: 'K2D', sans-serif;
+  font-size: 45px;
+  margin-bottom: 0px;
+}
+
+h3 {
+  color: whitesmoke;
+  text-align: center;
+  text-shadow: 1px 1px #000000;
+  font-family: 'K2D', sans-serif;
+  font-size: 20px;
+  margin-top: 0px;
+}
+
+.footer{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  color: whitesmoke;
+  background-color:#E1E1E166;
+  padding: 5px;
+  text-align: center;
+}
+
+.profile_pic {
+  width: 191px;
+  height: 261px;
+  margin-bottom: 0px;
+  margin-right: 10px;
+  margin-left: 10px;
+  align-content: left;
+  display: inline;
+  float: left;
+}
+.profile_discrip {
+  display: inline;
+  margin: 1%;
+}
+
+.personal {
+  display: flex;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 5%;
+  background-color: #E1E1E166;
+  padding: 3%;
+  border-radius: 4%;
+  font-weight: bold;
+  color: #2b344a;
+  font-family: 'K2D', sans-serif;
+  font-size: 14px;
+}
+
+/* CONTACT PAGE */
+
+.form {
+  text-align: left;
+  margin-left: 20%;
+  font-weight: bold;
+  color: #2b344a;
+  font-family: 'K2D', sans-serif;
+  margin-top: 5px;
+}
+
+.form-input {
+  font: unset;
+  width: 70%;
+  padding: 5px;
+  margin-top: 7px;
+  background-color: #E1E1E166;
+  color: #2b344a;
+  font-family: 'K2D', sans-serif;
+  font-size: 13px;
+}
+
+.form-submit {
+  background-color: #E1E1E166;
+  color: #2b344a;
+  font-family: unset;
+  font-weight: bold;
+  font-family: 'K2D', sans-serif;
+  font-size: 15px;
+  align-content: center;
+  width: 100px;
+}
+
+.button {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-right: 29%;
+}
+
+.projectDiv {
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 5%;
+  margin-bottom: 10%;
+  background-color: #E1E1E166;
+  padding: 3%;
+  border-radius: 4%;
+  font-weight: bold;
+  color: #2b344a;
+  font-family: 'K2D', sans-serif;
+  font-size: 14px;
+  
+}
+
+.column {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  align-content: center;
+  margin: auto;
+  justify-content: center;
+}
+
+.row-item {
+  margin: 4%
+  
+}
+
+.refImage {
+  width: 200px;
+  border-radius: 4%;
+  margin: 10px;
+}
+
+.gitLink {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: 25px;
+}
+
+.siteLink {
+  font-weight: bold;
+  color: #2b344a;
+}
