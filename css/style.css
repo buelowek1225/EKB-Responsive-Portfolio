@@ -1,11 +1,3 @@
-/* Downloaded Fonts */
-/* font-family: 'Anton', sans-serif;
-font-family: 'Hind Siliguri', sans-serif;
-font-family: 'Exo', sans-serif;
-font-family: 'Cinzel', serif;
-font-family: 'Pathway Gothic One', sans-serif;
-font-family: 'K2D', sans-serif; */
-
 html { 
   background: url("../images/Skola.jpg") no-repeat center center fixed;
   background-size: cover;
@@ -42,7 +34,7 @@ a:hover {
 }
 
 a {
-  color: whitesmoke;
+  color: #f5f5f5;
   font-family: 'K2D', sans-serif;
   text-decoration: none;
   margin: 5px;
@@ -55,7 +47,7 @@ a {
 }
 
 h1 {
-  color: whitesmoke;
+  color: #f5f5f5;
   text-align: center;
   text-shadow: 1px 1px #000000;
   font-family: 'K2D', sans-serif;
@@ -64,7 +56,7 @@ h1 {
 }
 
 h3 {
-  color: whitesmoke;
+  color: #f5f5f5;
   text-align: center;
   text-shadow: 1px 1px #000000;
   font-family: 'K2D', sans-serif;
@@ -76,8 +68,8 @@ h3 {
   position: absolute;
   bottom: 0;
   width: 100%;
-  color: whitesmoke;
-  background-color:#E1E1E166;
+  color: #f5f5f5;
+  background-color:#e1e1e166;
   padding: 5px;
   text-align: center;
 }
@@ -102,7 +94,7 @@ h3 {
   margin-left: 20%;
   margin-right: 20%;
   margin-top: 5%;
-  background-color: #E1E1E166;
+  background-color: #e1e1e166;
   padding: 3%;
   border-radius: 4%;
   font-weight: bold;
@@ -127,14 +119,14 @@ h3 {
   width: 70%;
   padding: 5px;
   margin-top: 7px;
-  background-color: #E1E1E166;
+  background-color: #e1e1e166;
   color: #2b344a;
   font-family: 'K2D', sans-serif;
   font-size: 13px;
 }
 
 .form-submit {
-  background-color: #E1E1E166;
+  background-color: #e1e1e166;
   color: #2b344a;
   font-family: unset;
   font-weight: bold;
@@ -156,7 +148,7 @@ h3 {
   margin-right: 10%;
   margin-top: 5%;
   margin-bottom: 10%;
-  background-color: #E1E1E166;
+  background-color: #e1e1e166;
   padding: 3%;
   border-radius: 4%;
   font-weight: bold;
@@ -165,6 +157,8 @@ h3 {
   font-size: 14px;
   
 }
+
+/* Portfolio Page */
 
 .column {
   position: relative;
