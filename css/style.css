@@ -77,16 +77,10 @@ h3 {
 .profile_pic {
   width: 191px;
   height: 261px;
-  margin-bottom: 0px;
-  margin-right: 10px;
-  margin-left: 10px;
+  margin: 0 10px;
   align-content: left;
   display: inline;
   float: left;
-}
-.profile_discrip {
-  display: inline;
-  margin: 1%;
 }
 
 .personal {
@@ -115,7 +109,6 @@ h3 {
 }
 
 .form-input {
-  font: unset;
   width: 70%;
   padding: 5px;
   margin-top: 7px;
@@ -128,7 +121,6 @@ h3 {
 .form-submit {
   background-color: #e1e1e166;
   color: #2b344a;
-  font-family: unset;
   font-weight: bold;
   font-family: 'K2D', sans-serif;
   font-size: 15px;
@@ -165,7 +157,6 @@ h3 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  
 }
 
 .row {
@@ -180,7 +171,6 @@ h3 {
 
 .row-item {
   margin: 4%
-  
 }
 
 .refImage {
@@ -201,19 +191,19 @@ h3 {
   color: #2b344a;
 }
 
-@media screen and (max-width:980px){
+@media screen and (max-width: 980px){
   .personal{
     margin-bottom: 50px;
   }
 }
 
-@media screen and (max-width:768px){
+@media screen and (max-width: 768px){
   .personal{
     margin-bottom: 50px;
   }
 }
 
-@media screen and (max-width:640dpx){
+@media screen and (max-width: 640px){
   .personal{
     margin-bottom: 50px;
   }
@@ -229,4 +219,3 @@ h3 {
     height: 34%;
   }
 }
-
